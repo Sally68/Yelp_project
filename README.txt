@@ -1,5 +1,4 @@
-# Yelp
-This is Yelp  real-tim recommending System project.
+This is Yelp  real-time recommending System project.
 
 First I downloaded the Yelp history data from the Kaggle website. This datasets are json files. 
 
