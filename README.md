@@ -93,8 +93,8 @@ SplitFieldsBolt split the records into different fields, like review_id, review_
 Usually people who makes more reviews are considered more reliable. So I think of counting the review made only by these active users
 
 the steps are:
-1 filter the users who are active from the history data
-2 join the new business able (speed layer) with the active_user table
+1)filter the users who are active from the history data
+2) join the new business able (speed layer) with the active_user table
 So I filered the TOP 10 restaurants.  
 
 
