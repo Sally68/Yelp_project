@@ -1,3 +1,4 @@
+
 bt= LOAD '/home/sally01/data/yelp_training_set_business.json' USING JsonLoader ('business_id:chararray,full_address:chararray,open:chararray,categories:{t:(category:chararray)},city:chararray,review_count:int,name:chararray,neighborhoods:{t:(neighborhood:chararray)},longitude:float,state:chararray,stars:float,latitude:float,type:chararray');
 d= foreach bt generate business_id,REPLACE(full_address,'\n','') AS full_address,open,categories,city,review_count,name,longitude,state,stars,latitude,type;
  
