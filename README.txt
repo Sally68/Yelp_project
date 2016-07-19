@@ -93,6 +93,7 @@ Usually people who makes more reviews are considered more reliable. So I think o
 
 the steps are:
 (1)filter the users who are active from the history data
+
 (2) join the new business able (speed layer) with the active_user table
 So I filered the TOP 10 restaurants.  
 
