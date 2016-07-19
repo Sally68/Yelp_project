@@ -1,3 +1,4 @@
+
 a =load '/home/sally01/test/yelp_training_set_user.json' as (str:chararray);
 b= foreach a generate REGEX_EXTRACT(str,'\\"votes\\"\\:\\s\\{(.*?)\\},',1) as votes;
 
