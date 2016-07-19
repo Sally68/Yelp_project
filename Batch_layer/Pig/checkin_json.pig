@@ -1,3 +1,4 @@
+
 a= load '/home/sally01/data/yelp_training_set_checkin.json' as (str:chararray);
 
 b= FOREACH a GENERATE 
