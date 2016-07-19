@@ -1,4 +1,3 @@
-
 ADD JAR /home/sally01/hive_jar/hive-serdes-1.0-SNAPSHOT.jar;
 
 CREATE EXTERNAL TABLE Business_hive(
